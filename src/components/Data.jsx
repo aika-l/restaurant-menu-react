@@ -19,11 +19,11 @@ const menu = [
   },
   {
     id: 3,
-    title: "godzilla milkshake",
+    title: "milo milkshake",
     category: "shakes",
     price: 6.99,
     img:
-      "https://www.laxshopdine.com/wp-content/uploads/2019/01/SSP_Cassells_Milkshakes.jpg",
+      "https://mangalorecookbook.wordpress.com/wp-content/uploads/2017/01/milo_godzilla.jpg",
     desc: `ombucha chillwave fanny pack 3 wolf moon street art photo booth before they sold out organic viral.`
   },
   {
@@ -76,7 +76,7 @@ const menu = [
     category: "shakes",
     price: 16.99,
     img:
-      "https://health.clevelandclinic.org/wp-content/uploads/sites/3/2016/10/foodJointPainRelief-142336977-770x533-1.jpg",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxHYI6gIVaXjPa6wXICRAJApi9U_EoyYkdvX7aKxzvpA&s=10",  
     desc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur nihil sed eos atque quo quisquam."
   }
