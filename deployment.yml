@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: restaurant-menu-deployment
+  namespace: prod
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: restaurant-menu
+  template:
+    metadata:
+      labels:
+        app: restaurant-menu
+    spec:
+      containers:
+        - name: restaurant-menu
+          image: ailitik/menu:1.0.0
+          ports:
+            - containerPort: 80S
