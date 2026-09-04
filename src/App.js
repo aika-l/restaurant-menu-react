@@ -22,7 +22,9 @@ export default function App() {
   console.log("items", items);
   return (
     <main>
-      <section className="menu secion">
+      {/* 🎄 Version 2 Holiday Elements */}
+      <div className="holiday-sign">🎄 Happy Holidays!!! ❄️</div>
+      <section className="menu section">
         <div className="title">
           <h2>our menu</h2>
           <div className="underline"></div>
@@ -33,4 +35,3 @@ export default function App() {
     </main>
   );
 }
-

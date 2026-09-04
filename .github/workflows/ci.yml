@@ -2,9 +2,11 @@ name: React CI/CD Pipeline
 
 on:
   push:
-    branches: [main, master, feature/react-18-upgrade]
+    branches:
+      [main, master, feature/react-18-upgrade, feature/v2-holiday-upgrade]
   pull_request:
-    branches: [main, master, feature/react-18-upgrade]
+    branches:
+      [main, master, feature/react-18-upgrade, feature/v2-holiday-upgrade]
 
 jobs:
   build:
